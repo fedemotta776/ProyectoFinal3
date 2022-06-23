@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+$rosa-cl: #f7c0cf;
+$rosa-cl2: #ffe3ea;
+$rosa-os: #f0899f;
+$blanco: white;
+
+@import "index";
+@import "navegador";
+@import "nuevosingresos";
+@import "conjuntos";
+@import "sweaters";
+@import "locales";
+@import "contacto";
+

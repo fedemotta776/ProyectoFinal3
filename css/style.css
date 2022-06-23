@@ -1,0 +1,1183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .indexBody {
+    background-color: #f0899f;
+    overflow: hidden;
+  }
+  .indexBody main .indexBackground .indexImg {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground1024 .indexImg1024 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground768 .indexImg768 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground425 .indexImg425 {
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .botonCompra {
+    display: flex;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit {
+    position: absolute;
+    width: 40%;
+    transform: translateX(135px) translateY(-90px);
+    opacity: 0.8;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit:hover {
+    opacity: 1.2;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    transform: translateX(220px) translateY(-40px);
+  }
+  .indexBody .redesIndex .iconoRedesA {
+    width: 20px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesB {
+    width: 20px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesC {
+    width: 20px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .indexBody {
+    background-color: #f0899f;
+    overflow: hidden;
+  }
+  .indexBody main .indexBackground .indexImg {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground1024 .indexImg1024 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground768 .indexImg768 {
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground425 .indexImg425 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .botonCompra {
+    display: flex;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit {
+    position: absolute;
+    width: 30%;
+    transform: translateX(40px) translateY(-185px);
+    opacity: 0.8;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit:hover {
+    opacity: 1.2;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    transform: translateX(400px) translateY(-75px);
+  }
+  .indexBody .redesIndex .iconoRedesA {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesB {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesC {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .indexBody {
+    background-color: #f0899f;
+    overflow: hidden;
+  }
+  .indexBody main .indexBackground .indexImg {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground1024 .indexImg {
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground768 .indexImg768 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground425 .indexImg425 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .botonCompra {
+    display: flex;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit {
+    position: absolute;
+    width: 25%;
+    transform: translateX(40px) translateY(-175px);
+    opacity: 0.8;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit:hover {
+    opacity: 1.2;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    transform: translateX(220px) translateY(-75px);
+  }
+  .indexBody .redesIndex .iconoRedesA {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesB {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody .redesIndex .iconoRedesC {
+    width: 30px;
+    opacity: 0.5;
+  }
+  .indexBody .redesIndex .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .indexBody {
+    background-color: #f0899f;
+    overflow: hidden;
+  }
+  .indexBody main .indexBackground {
+    display: flex;
+  }
+  .indexBody main .indexBackground .indexImg {
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground1024 .indexImg1024 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground768 .indexImg768 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground425 .indexImg425 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .botonCompra {
+    display: flex;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit {
+    position: absolute;
+    width: 20%;
+    transform: translateX(50px) translateY(-200px);
+    opacity: 0.8;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit:hover {
+    opacity: 1.2;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex {
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    transform: translateX(275px) translateY(-88px);
+  }
+  .indexBody main .redesIndex .iconoRedesA {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex .iconoRedesB {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex .iconoRedesC {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1921px) {
+  .indexBody {
+    background-color: #f0899f;
+    overflow: hidden;
+  }
+  .indexBody main .indexBackground {
+    display: flex;
+  }
+  .indexBody main .indexBackground .indexImg {
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground1024 .indexImg1024 {
+    display: none;
+  }
+  .indexBody main .indexBackground768 .indexImg768 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .indexBackground425 .indexImg425 {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+  .indexBody main .botonCompra {
+    display: flex;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit {
+    position: absolute;
+    width: 20%;
+    transform: translateX(70px) translateY(-250px);
+    opacity: 0.8;
+  }
+  .indexBody main .botonCompra .botonLink .botonEdit:hover {
+    opacity: 1.2;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex {
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    transform: translateX(350px) translateY(-105px);
+  }
+  .indexBody main .redesIndex .iconoRedesA {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex .iconoRedesB {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .indexBody main .redesIndex .iconoRedesC {
+    width: 40px;
+    opacity: 0.5;
+  }
+  .indexBody main .redesIndex .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 997px) {
+  .navegador {
+    background-color: #f0899f;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  .navegador .active {
+    background-color: #f7c0cf;
+  }
+  .navegador .elevenLogo {
+    width: 150px;
+    padding: 10px;
+  }
+  .navegador .panelNav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+  }
+  .navegador .linea {
+    height: 1px;
+    background: white;
+    margin-top: 5px;
+  }
+  .navegador .Redes {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .navegador .Redes .iconoRedesA {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .navegador .Redes .iconoRedesB {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .navegador .Redes .iconoRedesC {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 998px) and (max-width: 2560px) {
+  .navegador {
+    background-color: #f0899f;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 100%;
+  }
+  .navegador .active {
+    background-color: #f7c0cf;
+  }
+  .navegador .elevenLogo {
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .navegador .panelNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+  }
+  .navegador .linea {
+    height: 1px;
+    background: white;
+    margin-top: 5px;
+  }
+  .navegador .Redes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .navegador .Redes .iconoRedesA {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesA:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .navegador .Redes .iconoRedesB {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesB:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+  .navegador .Redes .iconoRedesC {
+    width: 40px;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .navegador .Redes .iconoRedesC:hover {
+    opacity: 0.8;
+    transition: opacity 0.35s ease-in-out;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 997px) {
+  .imagenesIndex {
+    margin-top: 120px;
+    height: 100%;
+  }
+  .imagenesIndex a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (min-width: 998px) and (max-width: 2560px) {
+  .imagenesIndex {
+    margin-left: 200px;
+    height: 100%;
+  }
+  .imagenesIndex a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (min-width: 0px) and (max-width: 997px) {
+  .seccionProductosConjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 130px;
+    justify-content: space-evenly;
+    border: 10px;
+    gap: 40px;
+  }
+  .seccionProductosConjuntos .productoConjuntos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+    height: 580px;
+  }
+  .seccionProductosConjuntos .productoConjuntos a {
+    text-decoration: none;
+  }
+  .seccionProductosConjuntos .productoConjuntos a img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .seccionProductosConjuntos .productoConjuntos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .seccionProductosConjuntos .descripcion {
+    padding: 10px;
+    width: 100%;
+  }
+  .seccionProductosConjuntos .descripcion .cardTitulo {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #f0899f;
+    text-align: right;
+  }
+  .seccionProductosConjuntos .descripcion .cardTexto {
+    padding: 5px;
+    font-weight: normal;
+    font-size: medium;
+    color: #f7c0cf;
+  }
+  .seccionProductosConjuntos .descripcion .precio {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: large;
+    color: #f0899f;
+    text-align: right;
+  }
+}
+
+@media (min-width: 998px) and (max-width: 2560px) {
+  .seccionProductosConjuntos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 220px;
+    border: 10px;
+    gap: 80px;
+  }
+  .seccionProductosConjuntos .productoConjuntos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 400px;
+    height: 700px;
+  }
+  .seccionProductosConjuntos .productoConjuntos a {
+    text-decoration: none;
+  }
+  .seccionProductosConjuntos .productoConjuntos a img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .seccionProductosConjuntos .productoConjuntos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .seccionProductosConjuntos .descripcion {
+    padding: 10px;
+    width: 100%;
+  }
+  .seccionProductosConjuntos .descripcion .cardTitulo {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #f0899f;
+    text-align: right;
+  }
+  .seccionProductosConjuntos .descripcion .cardTexto {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #f7c0cf;
+  }
+  .seccionProductosConjuntos .descripcion .precio {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #f0899f;
+    text-align: right;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 997px) {
+  .seccionProductosSweaters {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 130px;
+    justify-content: space-evenly;
+    border: 10px;
+    gap: 40px;
+  }
+  .seccionProductosSweaters .productoSweaters {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+  }
+  .seccionProductosSweaters .productoSweaters a {
+    text-decoration: none;
+  }
+  .seccionProductosSweaters .productoSweaters a img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .seccionProductosSweaters .productoSweaters:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .seccionProductosSweaters .descripcion {
+    padding: 10px;
+    width: 100%;
+  }
+  .seccionProductosSweaters .descripcion .cardTitulo {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: large;
+    color: #f0899f;
+    text-align: right;
+  }
+  .seccionProductosSweaters .descripcion .cardTexto {
+    padding: 5px;
+    font-weight: normal;
+    font-size: medium;
+    color: #f7c0cf;
+  }
+  .seccionProductosSweaters .descripcion .precio {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: large;
+    color: #f0899f;
+    text-align: right;
+  }
+}
+
+@media (min-width: 998px) and (max-width: 2560px) {
+  .seccionProductosSweaters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 220px;
+    border: 10px;
+    gap: 80px;
+  }
+  .seccionProductosSweaters .productoSweaters {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+  }
+  .seccionProductosSweaters .productoSweaters a {
+    text-decoration: none;
+  }
+  .seccionProductosSweaters .productoSweaters a img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .seccionProductosSweaters .productoSweaters:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .seccionProductosSweaters .descripcion {
+    padding: 10px;
+    width: 100%;
+  }
+  .seccionProductosSweaters .descripcion .cardTitulo {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #f0899f;
+    text-align: right;
+  }
+  .seccionProductosSweaters .descripcion .cardTexto {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #f7c0cf;
+  }
+  .seccionProductosSweaters .descripcion .precio {
+    padding: 2.5px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #f0899f;
+    text-align: right;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+  .mainLocales {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .mainLocales .textoLocales {
+    grid-area: locales;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+  }
+  .mainLocales .textoLocales .titulo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f0899f;
+  }
+  .mainLocales .textoLocales .provincia {
+    display: flex;
+    width: 350px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .localidad {
+    width: 350px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .resultados {
+    color: #ec90a2;
+  }
+  .mainLocales .textoLocales .barritaRosa {
+    height: 2px;
+    width: 300px;
+    background-color: #ec90a2;
+  }
+  .mainLocales .textoLocales .resultadosLista {
+    padding: 30px;
+    list-style: none;
+    color: #ec90a2;
+  }
+  .mainLocales .mapaLocales {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+  }
+  .mainLocales .mapaLocales .mapa iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .mainLocales {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .mainLocales .textoLocales {
+    grid-area: locales;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+  }
+  .mainLocales .textoLocales .titulo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f0899f;
+  }
+  .mainLocales .textoLocales .provincia {
+    display: flex;
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .localidad {
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .resultados {
+    color: #ec90a2;
+  }
+  .mainLocales .textoLocales .barritaRosa {
+    height: 2px;
+    width: 500px;
+    background-color: #ec90a2;
+  }
+  .mainLocales .textoLocales .resultadosLista {
+    padding: 30px;
+    list-style: none;
+    color: #ec90a2;
+  }
+  .mainLocales .mapaLocales {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+  }
+  .mainLocales .mapaLocales .mapa iframe {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mainLocales {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding: 30px;
+  }
+  .mainLocales .textoLocales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .mainLocales .textoLocales .titulo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f0899f;
+  }
+  .mainLocales .textoLocales .provincia {
+    display: flex;
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .localidad {
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .resultados {
+    color: #f0899f;
+  }
+  .mainLocales .textoLocales .barritaRosa {
+    height: 2px;
+    width: 500px;
+    background-color: #f0899f;
+  }
+  .mainLocales .textoLocales .resultadosLista {
+    padding: 30px;
+    list-style: none;
+    color: #f0899f;
+  }
+  .mainLocales .mapaLocales {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 2560px) {
+  .mainLocales {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: "locales mapa";
+    grid-template-rows: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 220px;
+    padding: 30px;
+  }
+  .mainLocales .textoLocales {
+    grid-area: locales;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 40px;
+  }
+  .mainLocales .textoLocales .titulo {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f0899f;
+  }
+  .mainLocales .textoLocales .provincia {
+    display: flex;
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .localidad {
+    width: 500px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe3ea;
+  }
+  .mainLocales .textoLocales .resultados {
+    color: #ec90a2;
+  }
+  .mainLocales .textoLocales .barritaRosa {
+    height: 2px;
+    width: 500px;
+    background-color: #ec90a2;
+  }
+  .mainLocales .textoLocales .resultadosLista {
+    padding: 30px;
+    list-style: none;
+    color: #ec90a2;
+  }
+  .mainLocales .mapaLocales {
+    grid-area: mapa;
+    display: flex;
+    justify-content: center;
+  }
+  .mainLocales .mapaLocales .mapa iframe {
+    margin-top: 80px;
+    width: 600px;
+    height: 800px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+  .seccionContacto {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ec90a2;
+    margin-top: 150px;
+  }
+  .seccionContacto .textoContacto {
+    padding: 30px;
+  }
+  .seccionContacto .textoContacto .titulo {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ec90a2;
+  }
+  .seccionContacto .textoContacto .barritaRosa {
+    height: 2px;
+    width: 350px;
+    background-color: #ec90a2;
+  }
+  .seccionContacto .textoContacto label {
+    width: 350px;
+    height: 50px;
+    display: inline-block;
+    align-items: center;
+    padding: 20px 50px 20px 0px;
+  }
+  .seccionContacto .textoContacto input {
+    width: 300px;
+    height: 40px;
+    display: block;
+    background-color: #f3c2d1;
+    border: none;
+  }
+  .seccionContacto .textoContacto fieldset {
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    margin-top: 40px;
+    width: 350px;
+  }
+  .seccionContacto .textoContacto .comentarios {
+    width: 350px;
+    height: 80px;
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    text-decoration: none;
+  }
+  .seccionContacto .textoContacto h4 {
+    margin-top: 20px;
+  }
+  .seccionContacto .textoContacto p {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .seccionContacto {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ec90a2;
+    margin-top: 150px;
+  }
+  .seccionContacto .textoContacto {
+    padding: 30px;
+  }
+  .seccionContacto .textoContacto .titulo {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ec90a2;
+  }
+  .seccionContacto .textoContacto .barritaRosa {
+    height: 2px;
+    width: 700px;
+    background-color: #ec90a2;
+  }
+  .seccionContacto .textoContacto label {
+    width: 350px;
+    height: 50px;
+    display: inline-block;
+    padding: 20px 50px 20px 0px;
+  }
+  .seccionContacto .textoContacto input {
+    width: 300px;
+    height: 40px;
+    display: block;
+    background-color: #f3c2d1;
+    border: none;
+  }
+  .seccionContacto .textoContacto fieldset {
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    margin-top: 40px;
+    width: 700px;
+  }
+  .seccionContacto .textoContacto .comentarios {
+    width: 700px;
+    height: 80px;
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    text-decoration: none;
+  }
+  .seccionContacto .textoContacto h4 {
+    margin-top: 20px;
+  }
+  .seccionContacto .textoContacto p {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .seccionContacto {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ec90a2;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .seccionContacto .textoContacto {
+    padding: 30px;
+  }
+  .seccionContacto .textoContacto .titulo {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ec90a2;
+  }
+  .seccionContacto .textoContacto .barritaRosa {
+    height: 2px;
+    width: 700px;
+    background-color: #ec90a2;
+  }
+  .seccionContacto .textoContacto label {
+    width: 350px;
+    height: 50px;
+    display: inline-block;
+    padding: 20px 50px 20px 0px;
+  }
+  .seccionContacto .textoContacto input {
+    width: 300px;
+    height: 40px;
+    display: block;
+    background-color: #f3c2d1;
+    border: none;
+  }
+  .seccionContacto .textoContacto fieldset {
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    margin-top: 40px;
+    width: 700px;
+  }
+  .seccionContacto .textoContacto .comentarios {
+    width: 700px;
+    height: 80px;
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    text-decoration: none;
+  }
+  .seccionContacto .textoContacto h4 {
+    margin-top: 20px;
+  }
+  .seccionContacto .textoContacto p {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 2560px) {
+  .seccionContacto {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ec90a2;
+    margin-top: 50px;
+    margin-left: 250px;
+  }
+  .seccionContacto .textoContacto {
+    padding: 30px;
+  }
+  .seccionContacto .textoContacto .titulo {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ec90a2;
+  }
+  .seccionContacto .textoContacto .barritaRosa {
+    height: 2px;
+    width: 910px;
+    background-color: #ec90a2;
+  }
+  .seccionContacto .textoContacto label {
+    width: 450px;
+    height: 50px;
+    display: inline-block;
+    padding: 20px 50px 20px 0px;
+  }
+  .seccionContacto .textoContacto input {
+    width: 400px;
+    height: 40px;
+    display: block;
+    background-color: #f3c2d1;
+    border: none;
+  }
+  .seccionContacto .textoContacto fieldset {
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    margin-top: 40px;
+    width: 883px;
+  }
+  .seccionContacto .textoContacto .comentarios {
+    width: 883px;
+    height: 80px;
+    border: none;
+    display: block;
+    background-color: #f3c2d1;
+    text-decoration: none;
+  }
+  .seccionContacto .textoContacto h4 {
+    margin-top: 20px;
+  }
+  .seccionContacto .textoContacto p {
+    margin-top: 20px;
+  }
+}

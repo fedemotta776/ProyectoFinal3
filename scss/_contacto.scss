@@ -1,0 +1,247 @@
+@media (min-width: 0px) and (max-width: 425px) {
+    .seccionContacto {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ec90a2;
+        margin-top: 150px;
+        .textoContacto {
+            padding: 30px;
+            .titulo {
+                font-size: 50px;
+                font-weight: bolder;
+                color: #ec90a2;
+            }
+            .barritaRosa {
+                height: 2px;
+                width: 350px;
+                background-color: #ec90a2;
+            
+            }
+            label {
+                width:350px; 
+                height: 50px; 
+                display:inline-block;
+                align-items: center;
+                padding: 20px 50px 20px 0px;
+                
+            }
+            input {
+                width:300px; 
+                height: 40px;
+                display: block;
+                background-color: #f3c2d1;
+                border: none;
+            }
+            
+            fieldset {
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                margin-top: 40px;
+                width: 350px;
+            }
+            .comentarios {
+                width: 350px;
+                height: 80px;
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                text-decoration: none
+                
+            }
+            h4 {
+                margin-top: 20px;
+            }
+            p {
+                margin-top: 20px;
+            }
+        
+    
+        }
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .seccionContacto {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ec90a2;
+        margin-top: 150px;
+        .textoContacto {
+            padding: 30px;
+            .titulo {
+                font-size: 50px;
+                font-weight: bolder;
+                color: #ec90a2;
+            }
+            .barritaRosa {
+                height: 2px;
+                width: 700px;
+                background-color: #ec90a2;
+            
+            }
+            label {
+                width:350px; 
+                height: 50px; 
+                display:inline-block;
+                padding: 20px 50px 20px 0px;
+                
+            }
+            input {
+                width:300px; 
+                height: 40px;
+                display: block;
+                background-color: #f3c2d1;
+                border: none;
+            }
+            
+            fieldset {
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                margin-top: 40px;
+                width: 700px;
+            }
+            .comentarios {
+                width: 700px;
+                height: 80px;
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                text-decoration: none
+                
+            }
+            h4 {
+                margin-top: 20px;
+            }
+            p {
+                margin-top: 20px;
+            }
+        
+    
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .seccionContacto {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ec90a2;
+        margin-top: 50px;
+        margin-left: 200px;
+        .textoContacto {
+            padding: 30px;
+            .titulo {
+                font-size: 50px;
+                font-weight: bolder;
+                color: #ec90a2;
+            }
+            .barritaRosa {
+                height: 2px;
+                width: 700px;
+                background-color: #ec90a2;
+            
+            }
+            label {
+                width:350px; 
+                height: 50px; 
+                display:inline-block;
+                padding: 20px 50px 20px 0px;
+                
+            }
+            input {
+                width:300px; 
+                height: 40px;
+                display: block;
+                background-color: #f3c2d1;
+                border: none;
+            }
+            
+            fieldset {
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                margin-top: 40px;
+                width: 700px;
+            }
+            .comentarios {
+                width: 700px;
+                height: 80px;
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                text-decoration: none
+                
+            }
+            h4 {
+                margin-top: 20px;
+            }
+            p {
+                margin-top: 20px;
+            }
+        
+    
+        }
+    }
+}
+@media (min-width: 1025px) and (max-width: 2560px) {
+    .seccionContacto {
+        display: flex;
+        flex-wrap: wrap;
+        color: #ec90a2;
+        margin-top: 50px;
+        margin-left: 250px;
+        .textoContacto {
+            padding: 30px;
+            .titulo {
+                font-size: 50px;
+                font-weight: bolder;
+                color: #ec90a2;
+            }
+            .barritaRosa {
+                height: 2px;
+                width: 910px;
+                background-color: #ec90a2;
+            
+            }
+            label {
+                width:450px; 
+                height: 50px; 
+                display:inline-block;
+                padding: 20px 50px 20px 0px;
+                
+            }
+            input {
+                width:400px; 
+                height: 40px;
+                display: block;
+                background-color: #f3c2d1;
+                border: none;
+            }
+            
+            fieldset {
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                margin-top: 40px;
+                width: 883px;
+            }
+            .comentarios {
+                width: 883px;
+                height: 80px;
+                border: none;
+                display: block;
+                background-color: #f3c2d1;
+                text-decoration: none
+                
+            }
+            h4 {
+                margin-top: 20px;
+            }
+            p {
+                margin-top: 20px;
+            }
+        
+    
+        }
+    }
+}
